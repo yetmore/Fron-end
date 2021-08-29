@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Consumo de API</title>
+</head>
+
+<body>
+  <h2>Commit Dos</h2>
+  <section class="crud">
+    <article class="crud_container">
+      <h2 class="crud_title">Agregar Producto</h2>
+      <form class="crud_form" action="">
+        <input type="text" name="nombre" placeholder="nombre" required>
+        <br>
+        <input type="text" name="categoria" placeholder="categoria" required>
+        <br>
+        <input type="text" name="precio" placeholder="precio" required>
+        <br>
+        <input type="text" name="imgURL" placeholder="imgURL" required>
+        <br>
+        <input class="submit" type="submit" value="Enviar">
+        <input type="hidden" name="id">
+      </form>
+    </article>
+  </section>
+  <br>
+  <br>
+
+
+  <div class="container-all">
+    <div class="container"></div>
+  </div>
+
+
+  <template id="template">
+    <article class="article">
+      <img class="img" src="" alt="Laptop">
+      <hr>
+      <h2 class="name"></h2>
+      <h3 class="category"></h3>
+      <h3 class="price"></h3>
+    </article>
+  </template>
+
+
+
+  <script type="module" src="js/data.js"></script>
+</body>
+
+</html>
